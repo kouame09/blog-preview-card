@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: figtree;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 24%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card-images {
+    margin-bottom: 1.6rem;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.label {
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+.card-date-text {
+    opacity: 0.7;
+}
+
+.card-paragraph-text {
+    color: hsl(0, 0%, 7%);
+}
+
+.card-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.card-avatar-image {
+    width: 9%;
+}
+
+.card-avatar-name {
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 520px){
+    .card {
+        width: 80%;
+    }
+}
+
